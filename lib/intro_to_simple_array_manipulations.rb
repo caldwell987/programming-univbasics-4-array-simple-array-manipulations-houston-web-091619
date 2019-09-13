@@ -50,9 +50,7 @@ def using_uniq(arr)
 end
 
 def using_flatten(arr)
-  instruments = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"]
-  flat_array = instruments.flatten
-  p flat_array
+  arr.flatten
 end
 
 def using_delete(arr,str)
