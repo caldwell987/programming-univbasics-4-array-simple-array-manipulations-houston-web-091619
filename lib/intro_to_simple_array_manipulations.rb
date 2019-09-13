@@ -50,15 +50,11 @@ def using_uniq(arr)
 end
 
 def using_flatten(arr)
-  
   arr.flatten
 end
 
 def using_delete(arr,str)
-  instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
-  no_offense_steven = instructors.delete("Steven")
-  instructors = no_offense_steven
-  p no_offense_steven
+  
 end
 
 def using_delete_at(arr,str)
