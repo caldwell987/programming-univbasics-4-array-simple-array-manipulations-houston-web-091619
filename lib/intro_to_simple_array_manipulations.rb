@@ -42,10 +42,6 @@ def my_favorite_things(arr,str)
 end
 
 def using_insert(arr,str)
-  list_of_programming_languages = ["Ruby", "JavaScript", "Java", "C#", "Objective C", "C++", "PHP"]
-  another_language = "Python"
-  new_array = list_of_programming_languages.insert(-1,another_language)
-  p new_array
 end
 
 def using_uniq(arr,int)
