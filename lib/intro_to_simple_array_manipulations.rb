@@ -45,10 +45,8 @@ def using_insert(arr,str)
   arr.insert(4, str)
 end
 
-def using_uniq(arr,int)
-  haircuts = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"]
-  new_array = haircuts.uniq
-  p new_array
+def using_uniq(arr)
+  arr.uniq
 end
 
 def using_flatten(arr)
