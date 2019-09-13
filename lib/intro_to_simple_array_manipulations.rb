@@ -13,18 +13,15 @@ def using_unshift(arr,str)
 end
 
 def using_pop(array)
-  return array.pop
+  array.pop
 end
 
 def pop_with_args(arr)
-  return arr.pop(2)
+  arr.pop(2)
 end
 
 def using_shift(arr)
-  my_favorites_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
-  im_so_over_this_city = my_favorite_cities.shift
-  my_favorite_cities = ["Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
-  p im_so_over_this_city
+  
 end
 
 def shift_with_args(arr)
