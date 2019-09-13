@@ -42,7 +42,7 @@ def my_favorite_things(arr,str)
 end
 
 def using_insert(arr,str)
-  
+  arr.insert(4, str)
 end
 
 def using_uniq(arr,int)
